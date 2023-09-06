@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <!-- stilos -->
+    <link rel="stylesheet" href="style.css">
+    <title>Pizzeria Bootstrap</title>
+    <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container-fluid m-0 p-0">
+            <nav class="navbar navbar-expand-lg bg-danger navbar-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand active" href="#">Nuevas_pizzas</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Menu</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="#">Combos</a>
+                        </li>
+                          <li class="nav-item dropdown">
+                              <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Empresas
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Contacto</a></li>
+                              <li><a class="dropdown-item" href="#">Franquisias</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">LLamanos</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active">Promociones</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<!-- carrosel -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" >
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="image/SLIDERS-TUTSY-COMBOS-SEMANA-4-ABRIL-2023-1-1-1.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="image/SLIDERS-TUTSY-COMBOS-SEMANA-4-ABRIL-2023-2-1-1-1366x377.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="image/SLIDERS-TUTSY-COMBOS-SEMANA-4-ABRIL-2023-3-1-1.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+    </div>
+
+    <!-- cards -->
+    <section>
+          <h2 class="text-center text-light mt-5 active" >MENU</h2>
+
+          <div class="container d-flex justify-content-center ">
+             <div class="row ">
+                 <div class="col-12 col-md-4  ">
+                     <div class="card" >
+                     <img src="image/4QUESOS-653x653_c.png" class="card-img-top" alt="...">
+                     <div class="card-body">
+                       <h5 class="card-title">NAPO</h5>
+                       <p>Jamón, Tomate, Mozzarella y Salsa de tomate.</p>
+                       <p class="card-text">Precio 2300$</p>
+                       <a href="#" class="btn btn-outline-danger">PediYa</a>
+                     </div>
+                   </div>
+                </div>
+                 <div class="col-12 col-md-4  ">
+                     <div class="card" >
+                     <img src="image/CHICKEN-653x653_c.png" class="card-img-top" alt="...">
+                     <div class="card-body">
+                       <h5 class="card-title">PEPPERONI</h5>
+                       <p class="card-text">Pepperoni, Mozzarella y Salsa de tomate..</p>
+                       <p>Precio 2800$</p>
+                       <a href="#" class="btn btn-outline-danger">PediYa</a>
+                    </div>
+                   </div>
+                </div>
+                 <div class="col-12 col-md-4 ">
+                     <div class="card " >
+                     <img src="image/MEAT-653x653_c.png" class="card-img-top" alt="...">
+                     <div class="card-body">
+                       <h5 class="card-title">MUZZA</h5>
+                       <p class="card-text">Mozzarella y Salsa de tomate.t.</p>
+                       <p>Precio 3000$</p>
+                       <a href="#" class="btn btn-outline-danger">PediYa</a>
+                     </div>
+                   </div>
+                </div>
+              
+             </div>
+          </div>
+
+      </section>
+<!-- cards -->
+      <section>
+          <div class="container  d-flex justify-content-center mt-5 ">
+             <div class="row ">
+                 <div class="col-12 col-md-4  ">
+                     <div class="card" >
+                     <img src="image/4QUESOS-653x653_c.png" class="card-img-top" alt="...">
+                     <div class="card-body">
+                       <h5 class="card-title">4QUESOS</h5>
+                       <p class="card-text">Cheddar, Provolone, Parmesano, Mozzarella y Salsa de tomate.</p>
+                       <p>Precio 3200$</p>
+                       <a href="#" class="btn btn-outline-dark">PediYa</a>
+                     </div>
+                   </div></div>
+                 <div class="col-12 col-md-4 ">
+                     <div class="card" >
+                     <img src="image/CHICKEN-653x653_c.png" class="card-img-top" alt="...">
+                     <div class="card-body">
+                       <h5 class="card-title">CHICKEN</h5>
+                       <p class="card-text">Pollo, Pimientos, Mozzarella y Salsa de tomate cubierta con Salsa…t.</p>
+                       <p>Precio 3600$</p>
+                       <a href="#" class="btn btn-outline-dark">PediYa</a>
+                     </div>
+                   </div></div>
+                 <div class="col-12 col-md-4 ">
+                     <div class="card" >
+                     <img src="image/MEAT-653x653_c.png" class="card-img-top" alt="...">
+                     <div class="card-body">
+                       <h5 class="card-title">MEAT</h5>
+                       <p class="card-text">Pepperoni, Cerdo, Panceta, Mozzarella y Salsa de tomate..</p>
+                       <p>Precio 3800$</p>
+                       <a href="#" class="btn btn-outline-dark">PediYa</a>
+                     </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+
+      </section>
+      <!-- image  btn-->
+    <section>
+       <div class="row mt-5">
+        <div class="col-12 col-md-6">
+            <img src="image/tutsy-image.webp" alt="" class="img-fluid rounded-top">
+        </div>
+        <div class="col-12 col-md-6  ">
+            <h3 id="h3">Nuestra cultura gastronómica</h3>
+            <p>No existe la magia cuando las cosas están bien hechas, y aunque Tutsy Pizza tiene sabores fantásticos, estamos convencidos de que es nuestro Know How lo que nos impulsa y mantiene firmes. Parte de ese Know How cuidado,  es la manera de producir cuidadosamente con cada insumo gastronómico adquirido nuestros productos.</p>
+            <p>Ofreciendo una amplia variedad de pizzas al estilo americano, ingredientes únicos, y acompañamientos exquisitos, representamos un lifestyle exclusivo, con cualidades de marca que trascienden lo previamente conocido. Experiencias, sabores, momentos. Somos la alternativa que remite a lo diferente, la posibilidad de experimentar la originalidad del sabor.</p>
+            <div>
+                <button type="button" class="btn btn-primary">Donde Encontranos</button>
+                <button type="button" class="btn btn-outline-dark">Nuestros Combos</button>
+            </div>
+        </div>
+       </div>
+          
+    </section>
+    <!-- formulario -->
+    <main>
+        <div class="row justify-content-center mt-4 pb-5">
+            <div class="col-7">
+                <h3>Manda un Mail</h3>
+                <input type="text" class="form-control" placeholder="Nombre" required>
+               <input type="emial" class="form-control" placeholder="Email" required>
+                <textarea cols="30" rows="10" class="form-control" placeholder="Deja un comentario"></textarea>
+        </div>
+    </main>
+   <footer>
+    <div class="container-fluid m-0 p-0">
+        <nav class="navbar navbar-expand-lg bg-danger navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand active" href="#">NUEVAS_PIZZAS</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="container d-flex justify-content-center ">
+                      <a href="https://www.linkedin.com/in/javier-eduardo-berchtold-4270a7182/" target="_blank" id="dev"><p>Todos los derechos rervados 2023 &#169 Jeb&Dev</p></a>
+                  </div>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Menu</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">Combos</a>
+                    </li>
+                      <li class="nav-item dropdown ">
+                          <a class="nav-link active dropdown-toggle disabled" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Empresas
+                        </a>
+                        <ul class="dropdown-menu ">
+                          <li><a class="dropdown-item" href="#">Contacto</a></li>
+                          <li><a class="dropdown-item" href="#">Franquisias</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">LLamanos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active">Promociones</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+   </footer>
+
+
+
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!-- Jeb&Dev       -->

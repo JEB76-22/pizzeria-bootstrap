@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header a {
+  font-family: "Staatliches", cursive;
+}
+
+.navbar-brand {
+  font-size: 4rem;
+}
+
+section h2 {
+  font-size: 54px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: -1px -1px 8px black;
+}
+section .card {
+  background-color: inherit;
+  border: none;
+}
+h5 {
+  font-weight: bold;
+}
+#h3 {
+  font-weight: bolder;
+}
+#dev {
+  text-decoration: none;
+  color: white;
+}
+#dev:hover {
+  color: black;
+}
+
+/* Jeb&Dev        */
